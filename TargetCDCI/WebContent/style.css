@@ -1,0 +1,161 @@
+/* 
+    Document   : style
+    Created on : May 20, 2013, 5:19:33 PM
+    Author     : ignite165
+    Description:
+        Purpose of the stylesheet follows.
+*/
+
+html {
+    margin:0px;
+    font-family:'Segoe UI Semilight', 'Open Sans', Verdana, Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    background-color: #E9E9E9;
+    font-weight : lighter;
+    scrollbar-face-color: #838383;
+    scrollbar-shadow-color: #e8e8e8;
+    scrollbar-highlight-color:#e8e8e8;
+    scrollbar-3dlight-color: #e8e8e8;
+    scrollbar-darkshadow-color: #e8e8e8;
+    scrollbar-track-color:#e8e8e8;
+    scrollbar-arrow-color: #838383;
+    background-repeat:no-repeat;
+    background-position:80% 25%;
+}
+a {
+    color: #0CAEC4;
+    text-decoration: none;
+}
+.header {
+    text-decoration: none;
+    position: fixed;
+    width: 100%;
+    right: 0;
+    left: 0;
+    top: 0;
+    font-size: 19px;
+    font-weight : lighter;
+    padding : 20px;
+    margin-top:0px;
+    color:white;
+    box-shadow: 0 2px 21px rgba(68, 62, 62, 0.55);
+    -webkit-box-shadow: 0 2px 21px rgba(68, 62, 62, 0.55);
+    -moz-box-shadow: 0 2px 21px rgba(68, 62, 62, 0.55);
+    background-image: linear-gradient(bottom, rgb(194,194,194) 35%, rgb(161,161,161) 70%);
+    background-image: -o-linear-gradient(bottom, rgb(194,194,194) 35%, rgb(161,161,161) 70%);
+    background-image: -moz-linear-gradient(bottom, rgb(194,194,194) 35%, rgb(161,161,161) 70%);
+    background-image: -webkit-linear-gradient(bottom, rgb(140, 10, 10) 35%, rgb(232, 22, 22) 70%);
+    /*background-image: -ms-linear-gradient(bottom, rgb(194,194,194) 35%, rgb(161,161,161) 70%);*/
+
+    /*background-image: -webkit-gradient(
+        linear,
+        left bottom,
+        left top,
+        color-stop(0.35, rgb(194,194,194)),
+        color-stop(0.7, rgb(161,161,161))
+        );*/
+}
+.heading {
+    font-weight : bold;
+    padding: 10px;
+    background-image: linear-gradient(right bottom, rgb(47,187,212) 11%, rgb(49,218,224) 48%, rgb(55,182,199) 76%);
+    background-image: -o-linear-gradient(right bottom, rgb(47,187,212) 11%, rgb(49,218,224) 48%, rgb(55,182,199) 76%);
+    background-image: -moz-linear-gradient(right bottom, rgb(47,187,212) 11%, rgb(49,218,224) 48%, rgb(55,182,199) 76%);
+    background-image: -webkit-linear-gradient(bottom, rgb(140, 10, 10) 35%, rgb(232, 22, 22) 70%);
+    background-image: -ms-linear-gradient(right bottom, rgb(47,187,212) 11%, rgb(49,218,224) 48%, rgb(55,182,199) 76%);
+
+    /*background-image: -webkit-gradient(
+        linear,
+        right bottom,
+        left top,
+        color-stop(0.11, rgb(47,187,212)),
+        color-stop(0.48, rgb(49,218,224)),
+        color-stop(0.76, rgb(55,182,199))
+        );*/
+    color:#E9E9E9;
+    font-size: 16px;
+    margin-top:40px;
+    margin-bottom:20px;
+    border-radius: 10px;
+    box-shadow: 0 2px 21px rgba(68, 62, 62, 0.55);
+    -webkit-box-shadow: 0 2px 21px rgba(68, 62, 62, 0.55);
+    -moz-box-shadow: 0 2px 21px rgba(68, 62, 62, 0.55);
+}
+.post {
+    font-size: 10px;
+    float:right;
+}
+.today {
+    background-color:#6E8F9C;
+}
+.wrap {
+    margin:120px 15px 50px 15px;
+}
+::-webkit-scrollbar {
+    width: 8px;
+}
+::-webkit-scrollbar-thumb {
+    background: rgba(97, 97, 97, 0.8);
+    -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.5);
+}
+::-webkit-scrollbar-track {
+    background: #E9E9E9;
+    -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
+}
+::-webkit-scrollbar-thumb:window-inactive {
+    background: rgba(97, 97, 97, 0.4);
+}
+.highlight {
+    background-color: #999999;
+}
+.wish:hover {
+    height: 200px;
+    background-image: url('shuvo-nobo-borsho.jpg');
+}
+.wish {
+    cursor:pointer;
+    padding: 25px;
+    background-color: rgb(84, 127, 247);
+    text-align: center;
+    margin-bottom: 60px;
+    margin-top: -13px;
+    font-weight: bold;
+}
+b {
+    font-weight: normal;
+    color: #158FE0;
+}
+button.css3button {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    color: #050505;
+    padding: 11px 30px;
+    background: -moz-linear-gradient(
+        top,
+        #c0e3fa 0%,
+        #60a6cc 52%,
+        #4fa4cc 50%,
+        #bacad6);
+    background: -webkit-gradient(
+        linear, left top, left bottom, 
+        from(#c0e3fa),
+        color-stop(0.52, #60a6cc),
+        color-stop(0.50, #4fa4cc),
+        to(#bacad6));
+    -moz-border-radius: 8px;
+    -webkit-border-radius: 8px;
+    border-radius: 8px;
+    border: 4px solid #78a0b3;
+    -moz-box-shadow:
+        -4px 4px 3px rgba(0,0,0,0.5),
+        inset 9px 0px 2px rgba(8,8,8,0);
+    -webkit-box-shadow:
+        -4px 4px 3px rgba(0,0,0,0.5),
+        inset 9px 0px 2px rgba(8,8,8,0);
+    box-shadow:
+        -4px 4px 3px rgba(0,0,0,0.5),
+        inset 9px 0px 2px rgba(8,8,8,0);
+    text-shadow:
+        0px -1px 0px rgba(82,174,235,0.2),
+        0px 1px 0px rgba(99,96,99,0.6);
+}
